@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h830/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/h830/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/h830/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/h830/proprietary/vendor/firmware/BCM4358A3_001.004.015.0075.0126_H1_Alice_ORC.hcd:system/vendor/firmware/BCM4358A3_001.004.015.0075.0126_H1_Alice_ORC.hcd
+    vendor/lge/h830/proprietary/vendor/firmware/BCM4358A3.hcd:system/vendor/firmware/BCM4358A3.hcd
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
@@ -35,4 +36,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h830/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
     vendor/lge/h830/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/lge/h830/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2
+
 endif
